@@ -1,13 +1,3 @@
-header{
-    background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../../img/header.jpg) no-repeat center;
-    color: white;
-    font-family: 'Courgette', cursive;
-}
-
-.header-logo{
-    width: 70px;
-}
-
 .petit-titre{
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -16,21 +6,9 @@ header{
 .ffc{
     font-family: 'Courgette', cursive;
 }
+
 .ffo{
     font-family: 'Oswald', sans-serif;
-}
-
-.list{
-    text-decoration: underline;
-    color: #fff;
-    list-style: none;
-    margin-left: -20px;
-    font-weight: lighter;
-}
-
-.list:hover{
-    text-decoration: underline;
-    color: gray;
 }
 
 .bg-noir{
