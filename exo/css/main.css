@@ -1,7 +1,11 @@
 header{
-    background:linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),url(../../img/header.jpg) no-repeat center;
+    background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../../img/header.jpg) no-repeat center;
     color: white;
     font-family: 'Courgette', cursive;
+}
+
+.header-logo{
+    width: 70px;
 }
 
 .petit-titre{
@@ -9,12 +13,13 @@ header{
     font-family: 'Oswald', sans-serif;
 }
 
-img{
-    width: 350px;
-    /* object-fit: cover; */
-    /* box-sizing: border-box; */
+.ffc{
+    font-family: 'Courgette', cursive;
+}
+.ffo{
+    font-family: 'Oswald', sans-serif;
 }
 
-.header-logo{
-    width: 70px;
+.bor{
+    border: 2px solid red;
 }

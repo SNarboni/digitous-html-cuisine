@@ -12,11 +12,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mb-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
             <a class="navbar-brand" href="#">
                 <h2>Cui'zine</h2>
             </a>
@@ -25,18 +27,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ffo">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Equipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -57,62 +59,110 @@
         </div>
     </header>
 
-    <div class="container-sm-fluid container-md">
+    <div class="container-fluid container-lg">
         <div class="row my-5 petit-titre">
             <div class="col-12">
                 <h3>Derniers Articles</h3>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col-12 col-md-4">
-                <img src="../../img/articles/suzette/suzette-small.jpg" alt="">
-            </div>
-            <div class="col-sm-12 col-md-5">
-                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris
-                    dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment
-                    ou au sarrazin!</p>
-            </div>
-            <div class="col-md-3">
-                <form action="">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
+        <div class="row">
+
+            <div class="col-xl-9 col-md-12">
+
+                <div class="row mb-5">
+
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid mb-3" src="../../img/articles/suzette/suzette-small.jpg" alt="">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+
+                    <div class="col-md-8 col-12 ffc">
+                        <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                        <p class="ffo font-weight-light">La franchise "Chez Suzette" qui fait un carton chez les bretons
+                            ouvre son premier
+                            restaurant
+                            à
+                            Paris
+                            dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au
+                            froment
+                            ou au sarrazin!</p>
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                </div>
+
+                <div class="row mb-5">
+
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid mb-3" src="../../img/articles/metro/metro-small.jpg" alt="">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+
+                    <div class="col-md-8 col-12 ffc">
+                        <h3>Le Métro dessert</h3>
+                        <p class="ffo font-weight-light">Germain est ferrovipathe (ndlr: fan de train), son fils Maxime
+                            est pâtissier. Ils
+                            ont décidé
+                            de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
+                            absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne
+                            son avis</p>
+                    </div>
+
+                </div>
+
+                <div class="row mb-5">
+
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid mb-3" src="../../img/articles/vitaly/vitaly-small.jpg" alt="">
+                    </div>
+
+                    <div class="col-md-8 col-12 ffc">
+                        <h3>Vitaly, le végan italien</h3>
+                        <p class="ffo font-weight-light">Quand on pense italien, on pense lasagne et jambon de Parme.
+                            Ils l'ont fait, les
+                            saveurs de
+                            l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-12 col-md-4">
-                <img src="../../img/articles/suzette/suzette-small.jpg" alt="">
+
+            <div class="d-none d-xl-block col-xl-3">
+
+                <div class="mt-5">
+
+                    <form class="ffc">
+                        <div class="form-group">
+                            <label for="text">Recherche</label>
+                            <input type="text" class="form-control" placeholder="Recherche...">
+                            <button type="button"
+                                class="btn btn-outline-dark btn-block ffo font-weight-bold">OK</button>
+                        </div>
+
+                        <div class=" form-group">
+                            <label for="exampleInputEmail1">Newsletter</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email...">
+                            <button type="button"
+                                class="btn btn-outline-dark btn-block ffo font-weight-bold ">S'inscrire</button>
+                        </div>
+
+                        <div>
+                            <h5>Partager</h5>
+                            <a class="text-reset mx-3" href="#"><i class="fab fa-facebook-square "></i></a>
+                            <a class="text-reset mr-3" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="text-reset mr-3" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="text-reset" href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </form>
+
+                </div>
+
             </div>
-            <div class="col-sm-12 col-md-5">
-                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris
-                    dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment
-                    ou au sarrazin!</p>
-            </div>
+
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
-                <img src="../../img/articles/suzette/suzette-small.jpg" alt="">
-            </div>
-            <div class="col-sm-12 col-md-5">
-                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris
-                    dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment
-                    ou au sarrazin!</p>
+            <div class="col-12">
+                <a href="#" class="text-decoration-none text-dark">
+                    << Voir les articles précédents</a>
             </div>
         </div>
     </div>
