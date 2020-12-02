@@ -1,0 +1,27 @@
+header{
+    background: url(../../img/articles/suzette/suzette-header.jpg) no-repeat center;
+    color: white;
+    font-family: 'Courgette', cursive;
+    background-size: cover;
+}
+
+.bg-tnoir{
+    background:rgba(0, 0, 0, .8) ;
+}
+
+span{
+    font-weight: bolder;
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+img{
+    width: 30%;
+}
