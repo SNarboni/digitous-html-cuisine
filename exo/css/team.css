@@ -1,0 +1,22 @@
+header{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../../img/team/team.jpg) no-repeat center;
+    color: white;
+    font-family: 'Courgette', cursive;
+    background-size: cover;
+}
+
+.header-logo{
+    width: 70px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+a{
+    color: #000000;
+}
+a:hover{
+    color: pink;
+}
