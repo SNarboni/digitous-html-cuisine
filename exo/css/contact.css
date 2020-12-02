@@ -1,0 +1,9 @@
+.mapouter {
+    position: relative;
+    object-fit: cover;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
