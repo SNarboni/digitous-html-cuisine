@@ -1,0 +1,30 @@
+header{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../../img/recipes/paella/paella-header.jpg) no-repeat center;
+    color: white;
+    font-family: 'Courgette', cursive;
+    background-size: cover;
+}
+
+.bad{
+    font-weight: 300;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+}
+.etape h5{
+    font-family: 'Courgette', cursive;
+}
+
+.etape p{
+    font-size: 18px;
+}
+
+.des{
+    position: absolute;
+    bottom:-16px;
+    left: 15px;
+    padding: 3px;
+    font-weight: 300;
+    color: black;
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+}
