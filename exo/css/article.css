@@ -1,5 +1,5 @@
 header{
-    background: url(../../img/articles/suzette/suzette-header.jpg) no-repeat center;
+    background: url(../img/articles/suzette/suzette-header.jpg) no-repeat center;
     color: white;
     font-family: 'Courgette', cursive;
     background-size: cover;
@@ -26,8 +26,13 @@ img{
 }
 
 .grande-lettre{
-    font-size: 80px;
-    line-height: 70px;
+    font-weight: bold;
+    float: left;
+    color: grey;
+    font-size: 62px;
+    line-height: 0.5em;
+    padding-top: 12px;
+    margin-right: 8px;
 }
 
 .logo{
